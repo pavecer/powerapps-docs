@@ -25,7 +25,7 @@ If the time limit is exceeded, Dataverse throws a <xref:System.TimeoutException>
 > [!IMPORTANT]
 > You can't control how long the message operation or other synchronous registered plug-ins take to execute. You can only control how long your plug-in takes to execute based on its design and coding.
 >
-> Our general recommendation is to limit the time your plug-in takes to execute to no more than 2 seconds.
+> Our general recommendation is to limit the time your plug-in takes to execute to no more than 2 minutes.
 >
 > If your plug-in requires more time to execute, consider registering your plug-in for asynchronous rather than synchronous execution. In fact, asynchronous execution should always be considered first when possible as it results in better application responsiveness and system scalability.
 
